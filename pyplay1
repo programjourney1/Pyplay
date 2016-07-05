@@ -1,0 +1,21 @@
+#a simple random country generator. picks a country from a list.
+
+import random
+
+
+
+input('Welcome to random Country generator Corey...(I assume?)')
+
+country=['Argentina', 'Peru','Chile','Brazil','USA','Canada','Spain','Scandinavia','Portugal','other']
+input('I will now select a country from your list..')
+print(random.choice(country))
+print('I hope this helps!')
+
+
+y=input('...is there anything else wrong? y or n')
+
+if y == 'y':
+    print('OK then i suggest seeing pyplay2.py!')
+else:
+    print('Well see you later then!')
+    exit()
