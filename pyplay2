@@ -1,0 +1,23 @@
+# Once pyplay1 has chosen a country pyplay2 helps to plan how to visit or move to said place
+#other advice given
+
+i=input('So where are we going?')
+
+if i=='USA':
+    print('oh USA, well you already live there, another city or state?')
+elif i=='Peru':
+    print('lets get going!')
+elif i=='Brazil':
+    print('lets get going!')
+elif i=='Portugal':
+    print('lets get going!')
+elif i=='Spain':
+    print('lets get going!')
+elif i=='Scandinavia':
+    print('lets get going!')
+elif i=='Chile':
+    print('lets get going!')
+elif i=="other":
+    print('Lets find out what other means...')
+else:
+    print('Not valid input')
