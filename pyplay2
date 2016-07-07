@@ -6,18 +6,32 @@ i=input('So where are we going?')
 if i=='USA':
     print('oh USA, well you already live there, another city or state?')
 elif i=='Peru':
-    print('lets get going!')
+    print('lets get going! Good selection. Probably dont want to settle in the city. but the jobs are good the. Good luck with Spanish )
 elif i=='Brazil':
-    print('lets get going!')
+    print('lets get going! Tropical fun! well Portuguese is hard, but not so hard. Have a great time')
 elif i=='Portugal':
-    print('lets get going!')
+    print('lets get going! Could be fun, but learning Portuguese is hard.')
 elif i=='Spain':
-    print('lets get going!')
+    print('lets get going! AHH the Iberian Peninsula, The coast is nice. Better practice your Spanish or Catalan.')
 elif i=='Scandinavia':
-    print('lets get going!')
+    scand=input('lets get going! Pack a coat,would you like to have a random Scandinavian country generted? y or n')
+    if scand=="y":
+        import random
+        scanda=['Norway','Sweden','Iceland','Denmark']
+        print(random.choice(scanda))
+    else:
+        print('Ok bye then!')
+        exit()
+
 elif i=='Chile':
-    print('lets get going!')
+    print('lets get going! Those mountains are cool. Better learn Spanish')
 elif i=="other":
     print('Lets find out what other means...')
+    input('Well it could mean stay where you are. OR it could mean a country or place not on the list.')
+    O=input('Do you think it is not on the list? if Yes press y, otherwise program will exit.')
+    if O=='y':
+         print('we will need more work. See pyplay3')
+    else:
+        exit()
 else:
     print('Not valid input')
